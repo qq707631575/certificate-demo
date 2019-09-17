@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="375px" height="667px" viewBox="0 0 375 667" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>bg</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="69.1027227%" y1="0%" x2="35.1431638%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#87ABFC" offset="0%"></stop>
+            <stop stop-color="#5585F0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="69.1281545%" y1="0%" x2="35.1233846%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#87ABFC" offset="0%"></stop>
+            <stop stop-color="#5585F0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="68.9268488%" y1="0%" x2="44.3305908%" y2="92.4886466%" id="linearGradient-3">
+            <stop stop-color="#87B8FC" offset="0%"></stop>
+            <stop stop-color="#5585F0" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-4" points="147.669475 254 0 254 147.669475 0"></polygon>
+        <linearGradient x1="-11.5624472%" y1="47.4115088%" x2="64.3995905%" y2="52.5884912%" id="linearGradient-6">
+            <stop stop-color="#5370F1" offset="0%"></stop>
+            <stop stop-color="#477DF6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="6.44927886%" y2="100%" id="linearGradient-7">
+            <stop stop-color="#5585F0" offset="0%"></stop>
+            <stop stop-color="#87ABFC" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="44.3519782%" y1="12.5557089%" x2="35.5045677%" y2="100%" id="linearGradient-8">
+            <stop stop-color="#5585F0" offset="0%"></stop>
+            <stop stop-color="#8ABBFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="44.3747755%" y1="12.5557089%" x2="35.5630759%" y2="100%" id="linearGradient-9">
+            <stop stop-color="#5585F0" offset="0%"></stop>
+            <stop stop-color="#8ABBFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="44.3173162%" y1="12.5557089%" x2="35.4156087%" y2="100%" id="linearGradient-10">
+            <stop stop-color="#5585F0" offset="0%"></stop>
+            <stop stop-color="#8ABBFF" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-11" points="148.888289 2.84217094e-14 2.84217094e-14 257.284759 2.84217094e-14 2.84217094e-14"></polygon>
+        <linearGradient x1="50%" y1="47.0287992%" x2="89.9802307%" y2="52.9712008%" id="linearGradient-13">
+            <stop stop-color="#477DF6" offset="0%"></stop>
+            <stop stop-color="#5370F1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="应用端" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="E7-生成证书(竖)">
+            <g id="bg">
+                <rect id="矩形" fill="#F7F8FA" x="0" y="0" width="375" height="667"></rect>
+                <polygon id="蒙版" fill="url(#linearGradient-1)" opacity="0.04" points="375 667 177 667 375 328"></polygon>
+                <polygon id="蒙版" fill="url(#linearGradient-2)" opacity="0.1" points="375 667 202 667 375 371"></polygon>
+                <g id="路径-17" transform="translate(227.000000, 413.000000)">
+                    <mask id="mask-5" fill="white">
+                        <use xlink:href="#path-4"></use>
+                    </mask>
+                    <use id="蒙版" fill="url(#linearGradient-3)" xlink:href="#path-4"></use>
+                    <polygon fill="url(#linearGradient-6)" opacity="0.798102679" mask="url(#mask-5)" points="147.299393 254 8.66648193 218.566831 -8.43037975 254"></polygon>
+                </g>
+                <circle id="椭圆形" fill="url(#linearGradient-7)" cx="344" cy="226" r="27"></circle>
+                <g id="编组-5">
+                    <polygon id="蒙版" fill="url(#linearGradient-8)" opacity="0.04" points="195 0 0 338 0 0"></polygon>
+                    <polygon id="蒙版" fill="url(#linearGradient-9)" opacity="0.1" points="171 0 0 297 0 0"></polygon>
+                    <g id="路径-16">
+                        <mask id="mask-12" fill="white">
+                            <use xlink:href="#path-11"></use>
+                        </mask>
+                        <use id="蒙版" fill="url(#linearGradient-10)" xlink:href="#path-11"></use>
+                        <polygon fill="url(#linearGradient-13)" opacity="0.8046875" mask="url(#mask-12)" points="0 0 136.068747 37.8021978 155.072952 0"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
