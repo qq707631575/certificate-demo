@@ -41,6 +41,9 @@
                 </li>
             </ul>
         </div>
+        <div class="toast" v-show="toastShow">
+            {{toastText}}
+        </div>
     </div>
 </template>
 
@@ -50,6 +53,8 @@ export default {
     name: 'myCertificate',
     data () {
         return {
+            toastText: '',
+            toastShow: false,
             imgArr: [
                 {
                     imgUrl: require('../assets/zhengshu1.png'),
@@ -104,7 +109,12 @@ export default {
     },
     methods: {
         toDetail(index) {
-            if (index != 1) return
+            if (index != 1) {
+                if (index > 1) {
+                    this.toast('暂未开放')
+                    return
+                }
+            }
             this.$router.push({path:'certificateDetail'});
         },
         _getOpenInfo() {
@@ -123,6 +133,14 @@ export default {
                 this.$alert(errData.desc)
             }
             }, false)
+        },
+        // toast弹窗
+        toast (str) {
+            this.toastText = str
+            this.toastShow = true
+            setTimeout(() => {
+                this.toastShow = false
+            }, 1500)
         }
     }
 }
@@ -272,5 +290,25 @@ export default {
         margin-left: 3px;
         width: 14px;
         height: 14px;
+    }
+    .toast {
+        position: fixed;
+        z-index: 2000;
+        left: 50%;
+        top:45%;
+        transition:all .5s;
+        -webkit-transform: translateX(-50%) translateY(-51%);
+            -moz-transform: translateX(-50%) translateY(-51%);
+            -ms-transform: translateX(-50%) translateY(-51%);
+                -o-transform: translateX(-50%) translateY(-51%);
+                transform: translateX(-50%) translateY(-51%);
+        text-align: center;
+        border-radius: 5px;
+        color:#FFF;
+        background: rgba(17, 17, 17, 0.7);
+        height: 45px;
+        line-height: 45px;
+        padding: 0 15px;
+        max-width: 150px;
     }
 </style>

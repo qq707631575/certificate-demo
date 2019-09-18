@@ -75,6 +75,7 @@ export default {
             this.$router.push({path:'share'});
         },
         goForm(index) {
+            window.open('http://d.do1.com.cn/R3VB')
             this.rulesList[index].isTrue = true
             localStorage.setItem('isTrue',1)
         }
