@@ -75,11 +75,11 @@ export default {
             this.$router.push({path:'share'});
         },
         goForm(index) {
-            window.open('http://d.do1.com.cn/R3VB')
             setTimeout(() => {
                 this.rulesList[index].isTrue = true
-                localStorage.setItem('isTrue',1)
-            }, 3000);
+            }, 3000)
+            localStorage.setItem('isTrue',1)
+            window.open('http://d.do1.com.cn/R3VB')
         }
     }
 }
